@@ -8,5 +8,6 @@ int getop(char []);
 void push(double);
 doube pop(void);
 
-main()
-    
+main(){
+  int a;
+}   
