@@ -5,7 +5,7 @@
 #define MAXOP 100
 #define NUMBER '0'
 
-main(){
+int main(){
     int type;
     double op2;
     char s[MAXOP];
@@ -28,7 +28,7 @@ main(){
             case '/':
                 op2 = pop();
                 if(op2 != 0.0)
-                    push(pop() / op2;
+                    push(pop() / op2);
                 else
                     printf("error: zero Division. \n");
                 break;
